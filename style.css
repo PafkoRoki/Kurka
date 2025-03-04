@@ -16,7 +16,7 @@ header{
     background-color: #010101;
     position: absolute;
     top: 0;
-    max-height: 100px;
+    max-height:80px;
     width: 90%;
     padding-left: 10%;
 }
@@ -48,7 +48,7 @@ header{
     left: 0;
     bottom: 0;
     background-image: linear-gradient(
-        to top, #333333 20%, transparent
+        to top, #333333 10%, transparent
     );
 }
 .slider .list .item .content{
@@ -132,7 +132,7 @@ header{
 .thumbnail .item{
     width: 150px;
     height: 220px;
-    filter: brightness(.5);
+    filter: brightness(1.0);
     transition: .5s;
     flex-shrink: 0;
 }
@@ -144,6 +144,7 @@ header{
 }
 .thumbnail .item.active{
     filter: brightness(1.5);
+    linear-gradient(to top, #0f2027, #203a4300, #2c536400),
 }
 .thumbnail .item .content{
     position: absolute;
